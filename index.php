@@ -1,3 +1,3 @@
 <?php
-    echo "Hola "."mundo";
+    echo pow((25-7*3),3)/4*5;
 ?>
