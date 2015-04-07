@@ -1,3 +1,10 @@
 <?php
-    echo pow((25-7*3),3)/4*5;
+    class Math
+    {
+    	public function __construct($num1, $num2){
+    		echo pow($num1, $num2);
+    	}
+    }
+
+    $Math = new Math(2,2);
 ?>
