@@ -6,7 +6,7 @@
     echo substr($text,0,$pos).substr($text, $pos);
 
     */
-
+    echo "Hola :v";
     class Conexion{
         public static function con(){
             define("host","localhost");
